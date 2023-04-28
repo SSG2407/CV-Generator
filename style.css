@@ -17,3 +17,11 @@ body {
 .background {
   background-color:  rgb(138, 203, 243);
 }
+
+h1{
+  color: darkred;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline black;
+  font-weight: bolder;
+  font-style: italic;
+}
