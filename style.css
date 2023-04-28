@@ -1,5 +1,5 @@
 body {
-  background-color: #e2e2e2;
+  background-color: darkgrey;
 }
 #cv-form {
   /* display: none; */
@@ -15,5 +15,5 @@ body {
 }
 
 .background {
-  background-color: cornflowerblue;
+  background-color:  rgb(138, 203, 243);
 }
