@@ -6,7 +6,7 @@ function addNewWEField() {
   newNode.classList.add("form-control");
   newNode.classList.add("weField");
   newNode.classList.add("mt-2");
-  newNode.setAttribute("rows", 3);
+  newNode.setAttribute("rows", 4);
   newNode.setAttribute("placeholder", "Enter here");
 
   let weOb = document.getElementById("we");
@@ -20,7 +20,7 @@ function addNewAQField() {
   newNode.classList.add("form-control");
   newNode.classList.add("eqField");
   newNode.classList.add("mt-2");
-  newNode.setAttribute("rows", 3);
+  newNode.setAttribute("rows", 4);
   newNode.setAttribute("placeholder", "Enter here");
 
   let aqOb = document.getElementById("aq");
@@ -60,6 +60,9 @@ function generateCV() {
   ).value;
   document.getElementById("linkedT").innerHTML = document.getElementById(
     "linkedField"
+  ).value;
+  document.getElementById("gmailT").innerHTML = document.getElementById(
+    "gmailField"
   ).value;
   
 
