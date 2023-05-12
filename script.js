@@ -61,6 +61,9 @@ function generateCV() {
   document.getElementById("linkedT").innerHTML = document.getElementById(
     "linkedField"
   ).value;
+  document.getElementById("gmailT").innerHTML = document.getElementById(
+    "gmailField"
+  ).value;
 
   //objective
 
